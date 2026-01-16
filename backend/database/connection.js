@@ -1,5 +1,7 @@
 // Libraries
 const { Sequelize } = require('sequelize');
+// Explicitly require mysql2 for Vercel serverless
+const mysql2 = require('mysql2');
 
 // Determine if we need SSL (for cloud databases like TiDB, PlanetScale, etc.)
 const isProduction = process.env.NODE_ENV === 'production';
