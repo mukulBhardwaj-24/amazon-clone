@@ -1,0 +1,37 @@
+{
+  "name": "amazon-clone-backend",
+  "version": "1.0.0",
+  "description": "Amazon clone Rest API using MySQL and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node defaultData.js"
+  },
+  "keywords": [
+    "mysql",
+    "express",
+    "rest",
+    "api"
+  ],
+  "author": "Sushant Patial",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.32.1",
+    "morgan": "^1.10.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
